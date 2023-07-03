@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<meta content="summary_large_image" name="twitter:card" />
+	<meta content="website" property="og:type" />
+	<meta content="" property="og:description" />
+	<meta content="https://93915lrplc.preview-postedstuff.com/V2-ZChZ0-lgLP-kIvb-lSBT/" property="og:url" />
+	<meta content="https://pro-bee-beepro-thumbnail.getbee.io/messages/1007231/992086/1936133/9516438_large.jpg" property="og:image" />
+	<meta content="" property="og:title" />
+	<meta content="" name="description" />
+	<meta charset="utf-8" />
+	<meta content="width=device-width" name="viewport" />
+	<style>
+		
+		img
+		[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] 
+		{display:none !important;}
+		
+		.bee-row,
+		.bee-row-content {
+			position: relative
+		}
+
+		body {
+			background-color: #fff;
+			color: #000;
+			font-family: Arial, Helvetica, sans-serif
+		}
+
+		.bee-row-1 .bee-col-2 .bee-block-1 li a,
+		.bee-row-3 .bee-col-2 .bee-block-2 a,
+		.bee-row-3 .bee-col-2 .bee-block-3 a,
+		.bee-row-3 .bee-col-2 .bee-block-4 a,
+		.bee-row-3 .bee-col-2 .bee-block-5 a,
+		a {
+			color: #8a3c90
+		}
+
+		* {
+			box-sizing: border-box
+		}
+
+		body,
+		p {
+			margin: 0
+		}
+
+		.bee-row-content {
+			max-width: 1280px;
+			margin: 0 auto;
+			display: flex
+		}
+
+		.bee-row-content .bee-col-w3 {
+			flex-basis: 25%
+		}
+
+		.bee-row-content .bee-col-w9 {
+			flex-basis: 75%
+		}
+
+		.bee-row-content .bee-col-w12 {
+			flex-basis: 100%
+		}
+
+		.bee-html-block {
+			text-align: center
+		}
+
+		.bee-icon .bee-icon-label-right a,
+		.bee-menu ul li a {
+			text-decoration: none
+		}
+
+		.bee-divider,
+		.bee-image {
+			overflow: auto
+		}
+
+		.bee-divider .center,
+		.bee-image .bee-center {
+			margin: 0 auto
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-1,
+		.bee-row-3 .bee-col-3 .bee-block-1,
+		.bee-row-3 .bee-col-4 .bee-block-1,
+		.bee-row-4 .bee-col-1 .bee-block-1,
+		.bee-row-4 .bee-col-2 .bee-block-1,
+		.bee-row-4 .bee-col-3 .bee-block-1,
+		.bee-row-4 .bee-col-4 .bee-block-1 {
+			width: 100%
+		}
+
+		.bee-menu ul {
+			margin: 0;
+			padding: 0
+		}
+
+		.bee-icon {
+			display: inline-block;
+			vertical-align: middle
+		}
+
+		.bee-icon .bee-content {
+			display: flex;
+			align-items: center
+		}
+
+		.bee-image img {
+			display: block;
+			width: 100%
+		}
+
+		.bee-menu ul {
+			list-style-type: none
+		}
+
+		.bee-menu ul.bee-horizontal li {
+			display: inline-block
+		}
+
+		.bee-paragraph {
+			overflow-wrap: anywhere
+		}
+
+		.bee-row-1,
+		.bee-row-6 {
+			background-repeat: no-repeat
+		}
+
+		.bee-row-1 .bee-row-content,
+		.bee-row-2 .bee-row-content {
+			background-repeat: no-repeat;
+			border-radius: 0;
+			color: #000
+		}
+
+		.bee-row-1 .bee-col-1,
+		.bee-row-1 .bee-col-2,
+		.bee-row-2 .bee-col-1,
+		.bee-row-3 .bee-col-1,
+		.bee-row-3 .bee-col-2,
+		.bee-row-3 .bee-col-3,
+		.bee-row-3 .bee-col-4,
+		.bee-row-4 .bee-col-1,
+		.bee-row-4 .bee-col-2,
+		.bee-row-4 .bee-col-3,
+		.bee-row-4 .bee-col-4,
+		.bee-row-5 .bee-col-1,
+		.bee-row-6 .bee-col-1 {
+			padding-bottom: 5px;
+			padding-top: 5px
+		}
+
+		.bee-row-1 .bee-col-1 .bee-block-1 {
+			padding: 15px;
+			width: 100%
+		}
+
+		.bee-row-1 .bee-col-2 .bee-block-1 {
+			color: #353535;
+			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			font-weight: 700;
+			letter-spacing: 2px;
+			padding: 10px;
+			text-align: center
+		}
+
+		.bee-row-2,
+		.bee-row-3,
+		.bee-row-4,
+		.bee-row-5 {
+			background-color: #353535;
+			background-repeat: no-repeat
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-2,
+		.bee-row-3 .bee-col-2 .bee-block-2,
+		.bee-row-3 .bee-col-2 .bee-block-3,
+		.bee-row-3 .bee-col-2 .bee-block-4,
+		.bee-row-3 .bee-col-2 .bee-block-5 {
+			padding: 10px
+		}
+
+		.bee-row-3 .bee-row-content,
+		.bee-row-4 .bee-row-content,
+		.bee-row-5 .bee-row-content,
+		.bee-row-6 .bee-row-content {
+			background-repeat: no-repeat;
+			color: #000
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-1 {
+			color: #9d9d9d;
+			font-family: inherit;
+			font-size: 15px;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			text-align: center
+		}
+
+		.bee-row-3 .bee-col-2 .bee-block-3,
+		.bee-row-3 .bee-col-2 .bee-block-4,
+		.bee-row-3 .bee-col-2 .bee-block-5 {
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+		}
+
+		.bee-row-1 .bee-col-2 .bee-block-1 li {
+			padding: 20px
+		}
+
+		.bee-row-3 .bee-col-2 .bee-block-4 {
+			color: #fff;
+			direction: ltr;
+			font-size: 16px;
+			font-weight: 700;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-3 .bee-col-2 .bee-block-2 p:not(:last-child),
+		.bee-row-3 .bee-col-2 .bee-block-3 p:not(:last-child),
+		.bee-row-3 .bee-col-2 .bee-block-4 p:not(:last-child),
+		.bee-row-3 .bee-col-2 .bee-block-5 p:not(:last-child) {
+			margin-bottom: 16px
+		}
+
+		.bee-row-3 .bee-col-2 .bee-block-3 {
+			color: #fff;
+			direction: ltr;
+			font-size: 38px;
+			font-weight: 700;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-3 .bee-col-2 .bee-block-2,
+		.bee-row-3 .bee-col-2 .bee-block-5 {
+			direction: ltr;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-3 .bee-col-2 .bee-block-2 {
+			color: #101112
+		}
+
+		@media (max-width:768px) {
+			.bee-row-content:not(.no_stack) {
+				display: block
+			}
+
+			.bee-row-1 .bee-col-2 .bee-block-1 {
+				text-align: center !important
+			}
+
+			.bee-row-2 .bee-col-1 .bee-block-1 {
+				padding: 0 !important
+			}
+
+			.bee-row-2 .bee-col-1 .bee-block-1 img {
+				float: none !important;
+				margin: 0 auto !important
+			}
+		}
+
+		.bee-row-3 .bee-col-2 .bee-block-5 {
+			color: #fff
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-1 .bee-icon-image {
+			padding: 5px 6px 5px 5px
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-1 .bee-icon:not(.bee-icon-first) .bee-content {
+			margin-left: 0
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+		
+		
+		
+	</style>
+</head>
+
+<body>
+	<div class="bee-page-container">
+		<div class="bee-row bee-row-1">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://angelinahuguenet.000webhostapp.com/Logo_angelina-huguenet-02.svg" style="max-width:160px;" /></div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w9">
+					<div class="bee-block bee-block-1 bee-menu">
+						<nav class="bee-menu">
+							<ul class="bee-horizontal">
+								<li>PORTFOLIO</li>
+								<li>CURRÍCULUM</li>
+								<li>CONTACTO</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-2">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://angelinahuguenet.000webhostapp.com/Img/Primeraprueba.gif" style="max-width:1280px;" /></div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-html-block"></div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-3">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w3"></div>
+				<div class="bee-col bee-col-2 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph"></div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p>Proyectos</p>
+					</div>
+					<div class="bee-block bee-block-4 bee-paragraph">
+						<p>Online &amp; Offline</p>
+					</div>
+					<div class="bee-block bee-block-5 bee-paragraph">
+						<p><u>Explorá todos los proyectos</u></p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-image"><img alt="I'm an image" class="bee-center bee-autowidth" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/Mesa%20de%20trabajo%208.png" style="max-width:320px;" /></div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-image"><img alt="I'm an image" class="bee-center bee-autowidth" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/Mesa%20de%20trabajo%209.png" style="max-width:320px;" /></div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-4">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-image"><img alt="I'm an image" class="bee-center bee-autowidth" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/Mesa%20de%20trabajo%201.png" style="max-width:320px;" /></div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-image"><img alt="I'm an image" class="bee-center bee-autowidth" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/Mesa%20de%20trabajo%201%20copia.png" style="max-width:320px;" /></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-image"><img alt="I'm an image" class="bee-center bee-autowidth" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/Mesa%20de%20trabajo%201%20copia%202.png" style="max-width:320px;" /></div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-image"><img alt="I'm an image" class="bee-center bee-autowidth" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/Mesa%20de%20trabajo%201%20copia%203.png" style="max-width:320px;" /></div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-5">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12"></div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-6">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-icons" id="beepro-locked-footer">
+						<div class="bee-icon bee-icon-last">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
