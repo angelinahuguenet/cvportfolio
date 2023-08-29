@@ -12,6 +12,10 @@
 	<meta content="" name="description" />
 	<meta charset="utf-8" />
 	<meta content="width=device-width" name="viewport" />
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 	<style>
 		body {
 			color: #000;
@@ -32,6 +36,43 @@
 			margin: 0;
 		}
 		
+		
+						/* 	ACÁ SE INICIA BARRA NAVEGADORA EN Css */
+
+		header {
+  background: rgba(240,240,240);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+			box-shadow: 1px 1px 1px 1px rgba(32,32,32,0.3);
+
+}
+		nav {
+  float: right; /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #3ead47;
+}
+	
 				/* 	ACÁ SE INICIA whatsapp Css */
 
 		
@@ -699,7 +740,8 @@
 		
 		
 		
-		
+						/* 	ACÁ SE TERMINA whatsapp Css */
+
 		
 		
 		
@@ -1510,11 +1552,160 @@ justify-content: center;
 				text-align: center !important;
 			}
 		}
+		
+								/* 	ACÁ SE INICIA SLIDER Css */
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+		
+		
+								/* 	ACÁ TERMINA SLIDER Css */
+
 	</style>
+	
+	
+	<script> $(document).ready(function(){
+  $('.customer-logos').slick({
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 4
+      }
+    }, {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 3
+      }
+    }]
+  });
+});
+	</script>
 </head>
 
 <body>
+	
+
 	<div class="bee-page-container">
+			<header>
+
 		<div class="bee-row bee-row-1">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w3">
@@ -1529,11 +1720,15 @@ justify-content: center;
 							<a href="https://api.whatsapp.com/send?phone=5493492302997&text=¡Hola Angelina! 
 Me gustaría que me ayudes en mi proyecto..." target="_blank"> 	<li>CONTACTO</li></a>
 							</ul>
+							
 						</nav>
+
 					</div>
 				</div>
 			</div>
 		</div>
+								</header>
+
 		<div class="bee-row bee-row-2">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w12">
@@ -1541,7 +1736,7 @@ Me gustaría que me ayudes en mi proyecto..." target="_blank"> 	<li>CONTACTO</li
 						<div class="spacer" style="height:45px;"></div>
 					</div>
 					<div class="bee-block bee-block-2 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
+						<div class="spacer" style="height:90px;"></div>
 					</div>
 					<div class="bee-block bee-block-3 bee-text">
 						<div class="bee-text-content" style="line-height: 120%; font-size: 12px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #ffffff;">
@@ -1635,41 +1830,41 @@ Me gustaría que me ayudes en mi proyecto..." target="_blank"> 	<li>CONTACTO</li
 		<div class="bee-row bee-row-6">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-image"> <figure> <img alt="Postales urbanas" class="bee-center bee-autowidth" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/Mesa%20de%20trabajo%201%20copia%204.png" style="max-width:320px;" /> <div 
-					class="capa"> <h6>Municipalidad de Rafaela</h6>
+					<div class="bee-block bee-block-1 bee-image"> <figure> <img alt="INSTITUTO NACIONAL DEL TEATRO" class="bee-center bee-autowidth" src="https://angelinahuguenet.000webhostapp.com/Img/Galeria-01.png" style="max-width:320px;" /> <div 
+					class="capa"> <h6>DISEÑO CORPORATIVO <br> Grupo Navent</h6>
 									  </div> </figure> </div>
 				</div>
 				<div class="bee-col bee-col-2 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-image"><figure><img alt="Vamos las plazas" class="bee-center bee-autowidth" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/Mesa%20de%20trabajo%207.png" style="max-width:320px;" /><div 
-					class="capa"><h6>GCBA</h6> </div> </figure></div>
+					<div class="bee-block bee-block-1 bee-image"><figure><img alt="UNRAF" class="bee-center bee-autowidth" src="https://angelinahuguenet.000webhostapp.com/Img/Galeria02.png" style="max-width:320px;" /><div 
+					class="capa"><h6>DISEÑO CORPORATIVO <br>Laboratorios Novartis</h6> </div> </figure></div>
 				</div>
 				<div class="bee-col bee-col-3 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-image"><figure><img alt="BAYON" class="bee-center bee-autowidth" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/Mesa%20de%20trabajo%208.png" style="max-width:320px;" /><div 
-					class="capa"><h6>Bayón Estudio Jurídico</h6> </div> </figure></div>
+					<div class="bee-block bee-block-1 bee-image"><figure><img alt="JOBINT" class="bee-center bee-autowidth" src="https://angelinahuguenet.000webhostapp.com/Img/Galeria-03.png" style="max-width:320px;" /><div 
+					class="capa"><h6>DISEÑO CORPORATIVO <br> Grupo Jobint HR TECH</h6> </div> </figure></div>
 				</div>
 				<div class="bee-col bee-col-4 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-image"><figure><img alt="INT" class="bee-center bee-autowidth" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/Mesa%20de%20trabajo%209.png" style="max-width:320px;" /><div 
-					class="capa"><h6>Instituto Nacional del Teatro</h6> </div> </figure></div>
+					<div class="bee-block bee-block-1 bee-image"><figure><img alt="INT" class="bee-center bee-autowidth" src="https://angelinahuguenet.000webhostapp.com/Img/Galeria05.png" style="max-width:320px;" /><div 
+					class="capa"><h6>DISEÑO INSTITUCIONAL <br>Gobierno de la Ciudad<br>de Buenos Aires </h6> </div> </figure></div>
 				</div>
 			</div>
 		</div>
 		<div class="bee-row bee-row-7">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-image"><figure><img alt="I'm an image" class="bee-center bee-autowidth" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/Mesa%20de%20trabajo%201.png" style="max-width:320px;" /><div 
-					class="capa"><h6>Bayón Estudio Jurídico</h6> </div> </figure></div>
+					<div class="bee-block bee-block-1 bee-image"><figure><img alt="MUNICIPALIDAD DE RAFAELA" class="bee-center bee-autowidth" src="https://angelinahuguenet.000webhostapp.com/Img/Galeria04.png" style="max-width:320px;" /><div 
+					class="capa"><h6>DISEÑO INSTITUCIONAL <br>Instituto Nacional del Teatro</h6> </div> </figure></div>
 				</div>
 				<div class="bee-col bee-col-2 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-image"><figure><img alt="I'm an image" class="bee-center bee-autowidth" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/Mesa%20de%20trabajo%201%20copia.png" style="max-width:320px;" /><div 
-					class="capa"><h6>Bayón Estudio Jurídico</h6> </div> </figure></div>
+					<div class="bee-block bee-block-1 bee-image"><figure><img alt="DIRECTORIO LEGISLATIVO" class="bee-center bee-autowidth" src="https://angelinahuguenet.000webhostapp.com/Img/Galeria06.png" style="max-width:320px;" /><div 
+					class="capa"><h6>PRODUCTOS DIGITALES  <br>Fundación Directorio Legislativo </h6> </div> </figure></div>
 				</div>
 				<div class="bee-col bee-col-3 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-image"><figure><img alt="I'm an image" class="bee-center bee-autowidth" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/Mesa%20de%20trabajo%201%20copia%202.png" style="max-width:320px;" /><div 
-					class="capa"><h6>Bayón Estudio Jurídico</h6> </div> </figure></div>
+					<div class="bee-block bee-block-1 bee-image"><figure><img alt="UNRAF" class="bee-center bee-autowidth" src="https://angelinahuguenet.000webhostapp.com/Img/Galeria07.png" style="max-width:320px;" /><div 
+					class="capa"><h6>DISEÑO INSTITUCIONAL <br>Universidad Nacional de Rafaela</h6> </div> </figure></div>
 				</div>
 				<div class="bee-col bee-col-4 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-image"><figure><img alt="I'm an image" class="bee-center bee-autowidth" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/Mesa%20de%20trabajo%201%20copia%203.png" style="max-width:320px;" /><div 
-					class="capa"><h6>Bayón Estudio Jurídico</h6> </div> </figure></div>
+					<div class="bee-block bee-block-1 bee-image"><figure><img alt="I'm an image" class="bee-center bee-autowidth" src="https://angelinahuguenet.000webhostapp.com/Img/Galeria8.png" style="max-width:320px;" /><div 
+					class="capa"><h6>BRANDING <br> Bayón Estudio Jurídico</h6> </div> </figure></div>
 				</div>
 			</div>
 		</div>
@@ -1681,65 +1876,26 @@ Me gustaría que me ayudes en mi proyecto..." target="_blank"> 	<li>CONTACTO</li
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="bee-row bee-row-9">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w2">
-					<div class="bee-block bee-block-1 bee-icons">
-						<div class="bee-icon bee-icon-last">
-							<div class="bee-content">
-								<div class="bee-icon-image"><img height="128px" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/LOGO.png" width="auto" /></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-2 bee-col-w2">
-					<div class="bee-block bee-block-1 bee-icons">
-						<div class="bee-icon bee-icon-last">
-							<div class="bee-content">
-								<div class="bee-icon-image"><img height="128px" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/LOGO.png" width="auto" /></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-3 bee-col-w2">
-					<div class="bee-block bee-block-1 bee-icons">
-						<div class="bee-icon bee-icon-last">
-							<div class="bee-content">
-								<div class="bee-icon-image"><img height="128px" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/LOGO.png" width="auto" /></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-4 bee-col-w2">
-					<div class="bee-block bee-block-1 bee-icons">
-						<div class="bee-icon bee-icon-last">
-							<div class="bee-content">
-								<div class="bee-icon-image"><img height="128px" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/LOGO.png" width="auto" /></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-5 bee-col-w2">
-					<div class="bee-block bee-block-1 bee-icons">
-						<div class="bee-icon bee-icon-last">
-							<div class="bee-content">
-								<div class="bee-icon-image"><img height="128px" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/LOGO.png" width="auto" /></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-6 bee-col-w2">
-					<div class="bee-block bee-block-1 bee-icons">
-						<div class="bee-icon bee-icon-last">
-							<div class="bee-content">
-								<div class="bee-icon-image"><img height="128px" src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/LOGO.png" width="auto" /></div>
-							</div>
-						</div>
+		
+		
+																		<!-- Prueba slider -->
+
+		<div class="container">
+  <section class="customer-logos slider">
+    <div class="slide"><img src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/LOGO.png"></div>
+    <div class="slide"><img src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/LOGO.png"></div>
+    <div class="slide"><img src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/LOGO.png"></div>
+    <div class="slide"><img src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/LOGO.png"></div>
+    <div class="slide"><img src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/LOGO.png"></div>
+    <div class="slide"><img src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/LOGO.png"></div>
+    <div class="slide"><img src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/LOGO.png"></div>
+    <div class="slide"><img src="https://e493163b9b.imgdist.com/public/users/Integrators/BeeProAgency/1007231_992086/LOGO.png"></div>
+  </section>
+																		<!-- Prueba slider -->
+
 					</div>
 				</div>
 			</div>
-		</div>
 		<div class="bee-row bee-row-10">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w12">
